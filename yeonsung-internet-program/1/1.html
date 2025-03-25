@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        background-color: linen;
+        color: green;
+        margin-left: 40px;
+        margin-right: 40px;
+      }
+      h3 {
+        text-align: center;
+        color: darkred;
+      }
+      hr {
+        height: 5px;
+        border: solid grey;
+        background-color: grey;
+      }
+    </style>
+    <script>
+      function show() {
+        document.getElementById("fig").src = "../media/shrek.png";
+      }
+      function hide() {
+        document.getElementById("fig").src = "";
+      }
+    </script>
+  </head>
+  <body>
+    <h3 onmouseover="show()" onmouseout="hide()">슈렉</h3>
+    <hr />
+    <div><img id="fig" src="" /></div>
+    저는 대한민국에서 태어나서 컴퓨터 공학을 전공하는 학생입니다. 제가 제일
+    좋아하는 과목은 웹 프로그래밍이고, 그 중에서도 자바스크립트를 제일 잘합니다.
+  </body>
+</html>

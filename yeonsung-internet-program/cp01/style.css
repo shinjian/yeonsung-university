@@ -1,0 +1,15 @@
+body {
+  font-weight: Arial, Helvetica, sans-serif;
+  text-align: center;
+
+  margin: 50px;
+
+  background-color: aqua;
+  color: azure;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
