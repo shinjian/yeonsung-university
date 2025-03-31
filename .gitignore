@@ -1,0 +1,12 @@
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
+# mac os 기본 파일
+.DS_Store
+._*
