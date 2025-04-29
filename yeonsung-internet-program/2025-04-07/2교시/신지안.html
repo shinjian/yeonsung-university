@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="연성대학교 컴퓨터소프트웨어학과 신지안 자기소개 페이지"
+    />
+    <meta name="author" content="신지안" />
+    <title>신지안 자기소개</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        margin: 30px;
+        line-height: 1.6;
+      }
+      header,
+      nav,
+      main,
+      footer {
+        margin-bottom: 30px;
+      }
+      nav ul {
+        list-style: none;
+        padding: 0;
+      }
+      nav ul li {
+        display: inline;
+        margin-right: 20px;
+      }
+      section {
+        margin-bottom: 40px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 10px;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid #ccc;
+      }
+      th,
+      td {
+        padding: 12px;
+        text-align: center;
+      }
+      footer {
+        text-align: center;
+        font-size: 14px;
+        color: #666;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>신지안 자기소개 페이지</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#about">소개</a></li>
+        <li><a href="#school">학교 생활</a></li>
+        <li><a href="#skills">기술 역량</a></li>
+        <li><a href="#contact">연락처</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section id="about">
+        <h2>👩‍💻 소개</h2>
+        <p>
+          안녕하세요. 저는 <strong>연성대학교 2025학번</strong>
+          <mark>컴퓨터소프트웨어학과</mark>에 재학 중인
+          <strong>신지안</strong>입니다. 나이는 <strong>21살</strong>입니다.
+        </p>
+        <p>
+          프로그래밍과 웹 개발에 큰 흥미를 가지고 있으며, HTML5와 CSS3를 활용한
+          웹페이지 제작에 관심이 많습니다.
+        </p>
+      </section>
+
+      <section id="school">
+        <h2>🏫 학교 생활</h2>
+        <ul>
+          <li>연성대학교 컴퓨터소프트웨어학과 재학</li>
+          <li>웹 프로그래밍, 데이터베이스, 모바일 앱 개발 과목 수강</li>
+          <li>웹 프로그래밍 심화반 참여</li>
+        </ul>
+      </section>
+
+      <section id="skills">
+        <h2>💻 기술 역량</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>기술</th>
+              <th>설명</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>HTML5</td>
+              <td>시멘틱 태그를 활용한 문서 구조화 가능</td>
+            </tr>
+            <tr>
+              <td>CSS3</td>
+              <td>스타일링 및 반응형 레이아웃 구현 가능</td>
+            </tr>
+            <tr>
+              <td>JavaScript(기초)</td>
+              <td>기본 동적 기능 구현 가능</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section id="contact">
+        <h2>📩 연락하기</h2>
+        <form action="#" method="POST">
+          <label for="name">이름:</label><br />
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="이름을 입력하세요"
+            required
+          /><br /><br />
+
+          <label for="email">이메일:</label><br />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="이메일을 입력하세요"
+            required
+          /><br /><br />
+
+          <label for="message">메시지:</label><br />
+          <textarea
+            id="message"
+            name="message"
+            rows="5"
+            cols="30"
+            placeholder="문의 내용을 입력하세요"
+          ></textarea
+          ><br /><br />
+
+          <button type="submit">보내기</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 연성대학교 신지안.</p>
+    </footer>
+  </body>
+</html>
